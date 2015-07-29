@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5FCA011B68A74200576627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5FCA001B68A74200576627 /* main.m */; };
+		FA5FCA041B68A74300576627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5FCA031B68A74300576627 /* AppDelegate.m */; };
+		FA5FCA071B68A74300576627 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5FCA061B68A74300576627 /* ViewController.m */; };
+		FA5FCA0A1B68A74300576627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5FCA081B68A74300576627 /* Main.storyboard */; };
+		FA5FCA0C1B68A74300576627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5FCA0B1B68A74300576627 /* Images.xcassets */; };
+		FA5FCA0F1B68A74300576627 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5FCA0D1B68A74300576627 /* LaunchScreen.xib */; };
+		FA5FCA1B1B68A74300576627 /* MDKeychainManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5FCA1A1B68A74300576627 /* MDKeychainManagerTests.m */; };
+		FA5FCA271B68A76800576627 /* MDKeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5FCA261B68A76800576627 /* MDKeychainManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5FCA151B68A74300576627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5FC9F31B68A74200576627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5FC9FA1B68A74200576627;
+			remoteInfo = MDKeychainManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA5FC9FB1B68A74200576627 /* MDKeychainManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDKeychainManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5FC9FF1B68A74200576627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5FCA001B68A74200576627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA5FCA021B68A74200576627 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA5FCA031B68A74300576627 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA5FCA051B68A74300576627 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA5FCA061B68A74300576627 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA5FCA091B68A74300576627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA5FCA0B1B68A74300576627 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA5FCA0E1B68A74300576627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA5FCA141B68A74300576627 /* MDKeychainManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDKeychainManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5FCA191B68A74300576627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5FCA1A1B68A74300576627 /* MDKeychainManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDKeychainManagerTests.m; sourceTree = "<group>"; };
+		FA5FCA251B68A76800576627 /* MDKeychainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDKeychainManager.h; sourceTree = "<group>"; };
+		FA5FCA261B68A76800576627 /* MDKeychainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDKeychainManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5FC9F81B68A74200576627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5FCA111B68A74300576627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5FC9F21B68A74200576627 = {
+			isa = PBXGroup;
+			children = (
+				FA5FC9FD1B68A74200576627 /* MDKeychainManager */,
+				FA5FCA171B68A74300576627 /* MDKeychainManagerTests */,
+				FA5FC9FC1B68A74200576627 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5FC9FC1B68A74200576627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FC9FB1B68A74200576627 /* MDKeychainManager.app */,
+				FA5FCA141B68A74300576627 /* MDKeychainManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5FC9FD1B68A74200576627 /* MDKeychainManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FCA021B68A74200576627 /* AppDelegate.h */,
+				FA5FCA031B68A74300576627 /* AppDelegate.m */,
+				FA5FCA051B68A74300576627 /* ViewController.h */,
+				FA5FCA061B68A74300576627 /* ViewController.m */,
+				FA5FCA241B68A74E00576627 /* MDKeychainManager */,
+				FA5FCA081B68A74300576627 /* Main.storyboard */,
+				FA5FCA0B1B68A74300576627 /* Images.xcassets */,
+				FA5FCA0D1B68A74300576627 /* LaunchScreen.xib */,
+				FA5FC9FE1B68A74200576627 /* Supporting Files */,
+			);
+			path = MDKeychainManager;
+			sourceTree = "<group>";
+		};
+		FA5FC9FE1B68A74200576627 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FC9FF1B68A74200576627 /* Info.plist */,
+				FA5FCA001B68A74200576627 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA5FCA171B68A74300576627 /* MDKeychainManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FCA1A1B68A74300576627 /* MDKeychainManagerTests.m */,
+				FA5FCA181B68A74300576627 /* Supporting Files */,
+			);
+			path = MDKeychainManagerTests;
+			sourceTree = "<group>";
+		};
+		FA5FCA181B68A74300576627 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FCA191B68A74300576627 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA5FCA241B68A74E00576627 /* MDKeychainManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FCA251B68A76800576627 /* MDKeychainManager.h */,
+				FA5FCA261B68A76800576627 /* MDKeychainManager.m */,
+			);
+			name = MDKeychainManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5FC9FA1B68A74200576627 /* MDKeychainManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5FCA1E1B68A74300576627 /* Build configuration list for PBXNativeTarget "MDKeychainManager" */;
+			buildPhases = (
+				FA5FC9F71B68A74200576627 /* Sources */,
+				FA5FC9F81B68A74200576627 /* Frameworks */,
+				FA5FC9F91B68A74200576627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDKeychainManager;
+			productName = MDKeychainManager;
+			productReference = FA5FC9FB1B68A74200576627 /* MDKeychainManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5FCA131B68A74300576627 /* MDKeychainManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5FCA211B68A74300576627 /* Build configuration list for PBXNativeTarget "MDKeychainManagerTests" */;
+			buildPhases = (
+				FA5FCA101B68A74300576627 /* Sources */,
+				FA5FCA111B68A74300576627 /* Frameworks */,
+				FA5FCA121B68A74300576627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5FCA161B68A74300576627 /* PBXTargetDependency */,
+			);
+			name = MDKeychainManagerTests;
+			productName = MDKeychainManagerTests;
+			productReference = FA5FCA141B68A74300576627 /* MDKeychainManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5FC9F31B68A74200576627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Diakonov;
+				TargetAttributes = {
+					FA5FC9FA1B68A74200576627 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FA5FCA131B68A74300576627 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FA5FC9FA1B68A74200576627;
+					};
+				};
+			};
+			buildConfigurationList = FA5FC9F61B68A74200576627 /* Build configuration list for PBXProject "MDKeychainManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5FC9F21B68A74200576627;
+			productRefGroup = FA5FC9FC1B68A74200576627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5FC9FA1B68A74200576627 /* MDKeychainManager */,
+				FA5FCA131B68A74300576627 /* MDKeychainManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5FC9F91B68A74200576627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5FCA0A1B68A74300576627 /* Main.storyboard in Resources */,
+				FA5FCA0F1B68A74300576627 /* LaunchScreen.xib in Resources */,
+				FA5FCA0C1B68A74300576627 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5FCA121B68A74300576627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5FC9F71B68A74200576627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5FCA071B68A74300576627 /* ViewController.m in Sources */,
+				FA5FCA041B68A74300576627 /* AppDelegate.m in Sources */,
+				FA5FCA271B68A76800576627 /* MDKeychainManager.m in Sources */,
+				FA5FCA011B68A74200576627 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5FCA101B68A74300576627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5FCA1B1B68A74300576627 /* MDKeychainManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5FCA161B68A74300576627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5FC9FA1B68A74200576627 /* MDKeychainManager */;
+			targetProxy = FA5FCA151B68A74300576627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA5FCA081B68A74300576627 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5FCA091B68A74300576627 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA5FCA0D1B68A74300576627 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5FCA0E1B68A74300576627 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA5FCA1C1B68A74300576627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA5FCA1D1B68A74300576627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA5FCA1F1B68A74300576627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MDKeychainManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA5FCA201B68A74300576627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MDKeychainManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA5FCA221B68A74300576627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MDKeychainManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDKeychainManager.app/MDKeychainManager";
+			};
+			name = Debug;
+		};
+		FA5FCA231B68A74300576627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MDKeychainManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDKeychainManager.app/MDKeychainManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5FC9F61B68A74200576627 /* Build configuration list for PBXProject "MDKeychainManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5FCA1C1B68A74300576627 /* Debug */,
+				FA5FCA1D1B68A74300576627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5FCA1E1B68A74300576627 /* Build configuration list for PBXNativeTarget "MDKeychainManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5FCA1F1B68A74300576627 /* Debug */,
+				FA5FCA201B68A74300576627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA5FCA211B68A74300576627 /* Build configuration list for PBXNativeTarget "MDKeychainManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5FCA221B68A74300576627 /* Debug */,
+				FA5FCA231B68A74300576627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5FC9F31B68A74200576627 /* Project object */;
+}
